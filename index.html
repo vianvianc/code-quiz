@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="large-font">Code Quiz</div>
+        <div class="score" id="'score">
+          Your Score: <span id="score"></span>/5
+        </div>
+        <div class="timer">Seconds Remaining: <span id="time">60</span></div>
+      </header>
+      <div class="container2">
+        <div id="start-screen" class="start">
+          <button class="button" id="startButton">Start Quiz</button>
+        </div>
+
+        <div id="questions" class="hide">
+          <h2 id="question-element"></h2>
+          <div id="options" class="options"></div>
+        </div>
+
+        <div id="end-screen" class="hide">
+          <div>
+            <ul id="scoresList"></ul>
+          </div>
+        </div>
+      </div>
+
+      <script src="assets/js/script.js"></script>
+    </div>
+  </body>
+</html>

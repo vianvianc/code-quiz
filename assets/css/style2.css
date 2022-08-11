@@ -1,0 +1,37 @@
+:root {
+  color: #e9fff9;
+}
+
+body {
+  text-align: center;
+  background-color: #1d3354;
+  align-items: center;
+}
+button {
+  font-size: larger;
+  font-weight: bold;
+  color: #523f38;
+  background-color: #c19875;
+  padding: 0.5em;
+  margin: 1em;
+  border: 0.25em solid #747367;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  background-color: #467599;
+}
+.timer {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+#scoresList {
+  color: #c19875;
+  font-size: larger;
+  font-weight: bold;
+}

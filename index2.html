@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+  </head>
+  <body>
+    <div class="timer">Time: <span id="time">60</span></div>
+    <div id="'score"></div>
+    <div class="wrapper">
+      <!-- this div will be hidden once the startButton is clicked... -->
+      <div id="start-display" class="start">
+        <h1>This is a Coding Quiz</h1>
+        <p>Answer these Trivia Questions</p>
+        <button class="button" id="startButton">Start Quiz</button>
+      </div>
+      <!-- and this div will show when startButton is clicked-->
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+      <!-- When quiz is completed, this end-screen will show -->
+      <div id="end-screen" class="hide">
+        <h2>You’re Done.</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <div>
+          <ul id="scoresList"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
