@@ -5,7 +5,7 @@ var govQuestions = [
     answer: "535",
   },
   {
-    title: "how many branches of government?",
+    title: "how many branches  of government?",
     options: ["3", "4", "5", "6"],
     answer: "3",
   },
